@@ -15,8 +15,12 @@ body {
   min-height: 100vh;
 } */
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 section:first-of-type {
-  background-image: url("/public/images/Group 6.png");
+  /* background-image: url("../docs/images/Group\ 6.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
